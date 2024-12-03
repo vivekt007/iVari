@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vivekt007.github.io/iVari/index.html",
+ "homepage": "https://vivekt007.github.io/iVari",
   "name": "ivari",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +8,7 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "start": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
