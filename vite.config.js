@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
     plugins: [react()],
-    base: "/reactTest/", // Base path for GitHub Pages
+    base: "/ivari//", // Base path for GitHub Pages
     server: {
         port: 3000,
         host: "0.0.0.0",
