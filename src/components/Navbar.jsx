@@ -26,7 +26,7 @@ function Navbar() {
     return (
         <nav className="navbar blur">
             <div className="logo">
-                <a href="/home">
+                <a href="/">
                     <img src={Logo} alt="Logo" />
                 </a>
             </div>
@@ -52,7 +52,7 @@ function Navbar() {
                 </div>
                 <ol className="nav-menu">
                     <li>
-                        <NavLink to="/home" onClick={toggleMenu}>
+                        <NavLink to="/" onClick={toggleMenu}>
                             <div className="link-container">
                                 <div className="nav-text">
                                     <p>Home</p>
@@ -154,7 +154,7 @@ function Navbar() {
                             <img src={ArrowRight} alt="->" />
                         </a>
 
-                        {/* <a target="_blank" rel="noopener noreferrer" href="/home">
+                        {/* <a target="_blank" rel="noopener noreferrer" href="/">
                             <p>Employee Login</p>
                             <img src={ArrowRight} alt="->" />
                         </a> */}
